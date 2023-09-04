@@ -1,0 +1,61 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body  {
+    font-family: calibri, Helvetica, sans-serif;
+    background color: yellow
+ }
+button  {
+       background-color:#FFC0CB;
+       width: 100%
+       color: yellow;
+       padding: 15px;
+       marging: 10px 0px;
+       border: none;
+       cursor: pointer;
+          }
+  form {
+         border: 3px solid #f1f1f1;
+     }
+ input[type=text], input[type=password]  {
+        width: 100%
+        margin:  8px 0;
+        padding: 12px 2px;
+        display: inline-box;
+        border: 2px solid green;
+        box-sizin: box-border; 
+    }
+   button:hover {
+             opaciy: 0.7;
+      }
+   .cancelbtn {
+           width: auto
+           padding: 10px 18px;
+           margin: 10px 5px;
+      }
+.container {
+       padding: 25px;
+       background-color: lightblue
+         }
+</style>
+</head>
+<body> 
+   <center> <h1> Student Login Form </h1> </center>
+   <form>
+     <div class="container">
+            <label>Username : </label>
+            <input type="text" placeholder="Enter Username"
+name="username" required>
+            <label> Password: </label>
+            <input type="password" placeholder="Enter Password"
+name="password" rquired>
+            <button type="submit">Login</button>
+            <input type="checkbox" checked="checked"> Remeber Me
+            <button type="button" class="cancelbtn">Cancel</button>
+            Forgot  <a href="https:https://www.minecraft.net/en-us"> password? </a>
+        </div>
+     </form>
+</body>
+</html>
